@@ -5,7 +5,7 @@ import java.util.LinkedHashMap;
 import java.util.Map;
 
 /**
- * Principal class of the Zoo, offerling all relevant public functionality. Access to public methods of this implementation
+ * Principal class of the Zoo, offering all relevant public functionality. Access to public methods of this implementation
  * is demonstrated in the DesktopLauncher class. This class is a singleton.
  *
  * @author Maximilian Schiedermeier
