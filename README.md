@@ -20,3 +20,7 @@ To compile / run the Zoo, execute these commands:
  * Compile: ```mvn clean install```
  * Run: ```java -jar target/zoo.jar```
 
+## Documentation
+
+ * [GitHub JavaDoc Pages](https://kartoffelquadrat.github.io/Zoo/eu/kartoffelquadrat/zoo/package-summary.html)
+
