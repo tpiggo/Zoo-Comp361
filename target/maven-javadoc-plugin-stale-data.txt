@@ -1,0 +1,86 @@
+/Library/Java/JavaVirtualMachines/adoptopenjdk-11.jdk/Contents/Home/bin/javadoc
+@options
+@packages
+-classpath
+'/Users/schieder/.m2/repository/org/springframework/boot/spring-boot-starter-web/2.3.0.RELEASE/spring-boot-starter-web-2.3.0.RELEASE.jar:/Users/schieder/.m2/repository/org/springframework/boot/spring-boot-starter/2.3.0.RELEASE/spring-boot-starter-2.3.0.RELEASE.jar:/Users/schieder/.m2/repository/org/springframework/boot/spring-boot/2.3.0.RELEASE/spring-boot-2.3.0.RELEASE.jar:/Users/schieder/.m2/repository/org/springframework/boot/spring-boot-autoconfigure/2.3.0.RELEASE/spring-boot-autoconfigure-2.3.0.RELEASE.jar:/Users/schieder/.m2/repository/org/springframework/boot/spring-boot-starter-logging/2.3.0.RELEASE/spring-boot-starter-logging-2.3.0.RELEASE.jar:/Users/schieder/.m2/repository/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3.jar:/Users/schieder/.m2/repository/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3.jar:/Users/schieder/.m2/repository/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar:/Users/schieder/.m2/repository/org/apache/logging/log4j/log4j-to-slf4j/2.13.2/log4j-to-slf4j-2.13.2.jar:/Users/schieder/.m2/repository/org/apache/logging/log4j/log4j-api/2.13.2/log4j-api-2.13.2.jar:/Users/schieder/.m2/repository/org/slf4j/jul-to-slf4j/1.7.30/jul-to-slf4j-1.7.30.jar:/Users/schieder/.m2/repository/jakarta/annotation/jakarta.annotation-api/1.3.5/jakarta.annotation-api-1.3.5.jar:/Users/schieder/.m2/repository/org/springframework/spring-core/5.2.6.RELEASE/spring-core-5.2.6.RELEASE.jar:/Users/schieder/.m2/repository/org/springframework/spring-jcl/5.2.6.RELEASE/spring-jcl-5.2.6.RELEASE.jar:/Users/schieder/.m2/repository/org/yaml/snakeyaml/1.26/snakeyaml-1.26.jar:/Users/schieder/.m2/repository/org/springframework/boot/spring-boot-starter-json/2.3.0.RELEASE/spring-boot-starter-json-2.3.0.RELEASE.jar:/Users/schieder/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.11.0/jackson-databind-2.11.0.jar:/Users/schieder/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.11.0/jackson-annotations-2.11.0.jar:/Users/schieder/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.11.0/jackson-core-2.11.0.jar:/Users/schieder/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.11.0/jackson-datatype-jdk8-2.11.0.jar:/Users/schieder/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.11.0/jackson-datatype-jsr310-2.11.0.jar:/Users/schieder/.m2/repository/com/fasterxml/jackson/module/jackson-module-parameter-names/2.11.0/jackson-module-parameter-names-2.11.0.jar:/Users/schieder/.m2/repository/org/springframework/boot/spring-boot-starter-tomcat/2.3.0.RELEASE/spring-boot-starter-tomcat-2.3.0.RELEASE.jar:/Users/schieder/.m2/repository/org/apache/tomcat/embed/tomcat-embed-core/9.0.35/tomcat-embed-core-9.0.35.jar:/Users/schieder/.m2/repository/org/glassfish/jakarta.el/3.0.3/jakarta.el-3.0.3.jar:/Users/schieder/.m2/repository/org/apache/tomcat/embed/tomcat-embed-websocket/9.0.35/tomcat-embed-websocket-9.0.35.jar:/Users/schieder/.m2/repository/org/springframework/spring-web/5.2.6.RELEASE/spring-web-5.2.6.RELEASE.jar:/Users/schieder/.m2/repository/org/springframework/spring-beans/5.2.6.RELEASE/spring-beans-5.2.6.RELEASE.jar:/Users/schieder/.m2/repository/org/springframework/spring-webmvc/5.2.6.RELEASE/spring-webmvc-5.2.6.RELEASE.jar:/Users/schieder/.m2/repository/org/springframework/spring-aop/5.2.6.RELEASE/spring-aop-5.2.6.RELEASE.jar:/Users/schieder/.m2/repository/org/springframework/spring-context/5.2.6.RELEASE/spring-context-5.2.6.RELEASE.jar:/Users/schieder/.m2/repository/org/springframework/spring-expression/5.2.6.RELEASE/spring-expression-5.2.6.RELEASE.jar'
+-encoding
+'UTF-8'
+-protected
+-source
+'8'
+-sourcepath
+'/Users/schieder/Code/Zoo/src/main/java:/Users/schieder/Code/Zoo/target/generated-sources/annotations'
+-author
+-bottom
+'Copyright &#169; 2022 <a href="https://spring.io">Pivotal Software, Inc.</a>. All rights reserved.'
+-charset
+'UTF-8'
+-d
+'/Users/schieder/Code/Zoo/target/apidocs'
+-docencoding
+'UTF-8'
+-doctitle
+'zoointernals 1.0 API'
+-linkoffline
+'https://docs.oracle.com/javase/8/docs/api' '/Users/schieder/Code/Zoo/target/javadoc-bundle-options'
+-use
+-version
+-windowtitle
+'zoointernals 1.0 API'
+eu.kartoffelquadrat.zoo
+eu.kartoffelquadrat.zoo
+eu.kartoffelquadrat.zoo
+eu.kartoffelquadrat.zoo
+/Users/schieder/.m2/repository/org/springframework/boot/spring-boot-starter-web/2.3.0.RELEASE/spring-boot-starter-web-2.3.0.RELEASE.jar = 1648136546896
+/Users/schieder/.m2/repository/org/springframework/boot/spring-boot-starter/2.3.0.RELEASE/spring-boot-starter-2.3.0.RELEASE.jar = 1648136549125
+/Users/schieder/.m2/repository/org/springframework/boot/spring-boot/2.3.0.RELEASE/spring-boot-2.3.0.RELEASE.jar = 1648136548141
+/Users/schieder/.m2/repository/org/springframework/boot/spring-boot-autoconfigure/2.3.0.RELEASE/spring-boot-autoconfigure-2.3.0.RELEASE.jar = 1648136548422
+/Users/schieder/.m2/repository/org/springframework/boot/spring-boot-starter-logging/2.3.0.RELEASE/spring-boot-starter-logging-2.3.0.RELEASE.jar = 1648136548324
+/Users/schieder/.m2/repository/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3.jar = 1648136548664
+/Users/schieder/.m2/repository/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3.jar = 1648136548805
+/Users/schieder/.m2/repository/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar = 1648136548838
+/Users/schieder/.m2/repository/org/apache/logging/log4j/log4j-to-slf4j/2.13.2/log4j-to-slf4j-2.13.2.jar = 1648136548626
+/Users/schieder/.m2/repository/org/apache/logging/log4j/log4j-api/2.13.2/log4j-api-2.13.2.jar = 1648136548942
+/Users/schieder/.m2/repository/org/slf4j/jul-to-slf4j/1.7.30/jul-to-slf4j-1.7.30.jar = 1648136548824
+/Users/schieder/.m2/repository/jakarta/annotation/jakarta.annotation-api/1.3.5/jakarta.annotation-api-1.3.5.jar = 1648136551121
+/Users/schieder/.m2/repository/org/springframework/spring-core/5.2.6.RELEASE/spring-core-5.2.6.RELEASE.jar = 1648136556570
+/Users/schieder/.m2/repository/org/springframework/spring-jcl/5.2.6.RELEASE/spring-jcl-5.2.6.RELEASE.jar = 1648136549034
+/Users/schieder/.m2/repository/org/yaml/snakeyaml/1.26/snakeyaml-1.26.jar = 1648136549680
+/Users/schieder/.m2/repository/org/springframework/boot/spring-boot-starter-json/2.3.0.RELEASE/spring-boot-starter-json-2.3.0.RELEASE.jar = 1648136549036
+/Users/schieder/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.11.0/jackson-databind-2.11.0.jar = 1648136551135
+/Users/schieder/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.11.0/jackson-annotations-2.11.0.jar = 1648136550352
+/Users/schieder/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.11.0/jackson-core-2.11.0.jar = 1648136550857
+/Users/schieder/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.11.0/jackson-datatype-jdk8-2.11.0.jar = 1648136549952
+/Users/schieder/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.11.0/jackson-datatype-jsr310-2.11.0.jar = 1648136550274
+/Users/schieder/.m2/repository/com/fasterxml/jackson/module/jackson-module-parameter-names/2.11.0/jackson-module-parameter-names-2.11.0.jar = 1648136550665
+/Users/schieder/.m2/repository/org/springframework/boot/spring-boot-starter-tomcat/2.3.0.RELEASE/spring-boot-starter-tomcat-2.3.0.RELEASE.jar = 1648136551051
+/Users/schieder/.m2/repository/org/apache/tomcat/embed/tomcat-embed-core/9.0.35/tomcat-embed-core-9.0.35.jar = 1648136555344
+/Users/schieder/.m2/repository/org/glassfish/jakarta.el/3.0.3/jakarta.el-3.0.3.jar = 1648136551624
+/Users/schieder/.m2/repository/org/apache/tomcat/embed/tomcat-embed-websocket/9.0.35/tomcat-embed-websocket-9.0.35.jar = 1648136551614
+/Users/schieder/.m2/repository/org/springframework/spring-web/5.2.6.RELEASE/spring-web-5.2.6.RELEASE.jar = 1648136556321
+/Users/schieder/.m2/repository/org/springframework/spring-beans/5.2.6.RELEASE/spring-beans-5.2.6.RELEASE.jar = 1648136555368
+/Users/schieder/.m2/repository/org/springframework/spring-webmvc/5.2.6.RELEASE/spring-webmvc-5.2.6.RELEASE.jar = 1648136553430
+/Users/schieder/.m2/repository/org/springframework/spring-aop/5.2.6.RELEASE/spring-aop-5.2.6.RELEASE.jar = 1648136555100
+/Users/schieder/.m2/repository/org/springframework/spring-context/5.2.6.RELEASE/spring-context-5.2.6.RELEASE.jar = 1648136555244
+/Users/schieder/.m2/repository/org/springframework/spring-expression/5.2.6.RELEASE/spring-expression-5.2.6.RELEASE.jar = 1648136555557
+/Users/schieder/Code/Zoo/src/main/java = 1648053508766
+/Users/schieder/Code/Zoo/target/generated-sources/annotations = 1648738243300
+/Users/schieder/Code/Zoo/target/apidocs/constant-values.html = 1648738246934
+/Users/schieder/Code/Zoo/target/apidocs/member-search-index.zip = 1648738246975
+/Users/schieder/Code/Zoo/target/apidocs/overview-tree.html = 1648738246959
+/Users/schieder/Code/Zoo/target/apidocs/index.html = 1648738246993
+/Users/schieder/Code/Zoo/target/apidocs/package-search-index.js = 1648738246970
+/Users/schieder/Code/Zoo/target/apidocs/package-search-index.zip = 1648738246974
+/Users/schieder/Code/Zoo/target/apidocs/type-search-index.zip = 1648738246975
+/Users/schieder/Code/Zoo/target/apidocs/index-all.html = 1648738246976
+/Users/schieder/Code/Zoo/target/apidocs/allpackages-index.html = 1648738246984
+/Users/schieder/Code/Zoo/target/apidocs/deprecated-list.html = 1648738246988
+/Users/schieder/Code/Zoo/target/apidocs/member-search-index.js = 1648738246975
+/Users/schieder/Code/Zoo/target/apidocs/allclasses.html = 1648738246991
+/Users/schieder/Code/Zoo/target/apidocs/script.js = 1648738247001
+/Users/schieder/Code/Zoo/target/apidocs/stylesheet.css = 1648738247000
+/Users/schieder/Code/Zoo/target/apidocs/help-doc.html = 1648738246997
+/Users/schieder/Code/Zoo/target/apidocs/element-list = 1648738246918
+/Users/schieder/Code/Zoo/target/apidocs/allclasses-index.html = 1648738246982
+/Users/schieder/Code/Zoo/target/apidocs/type-search-index.js = 1648738246974
+/Users/schieder/Code/Zoo/target/apidocs/search.js = 1648738247003

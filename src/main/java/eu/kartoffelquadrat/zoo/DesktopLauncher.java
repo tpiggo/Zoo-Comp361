@@ -9,7 +9,7 @@ public class DesktopLauncher {
 
     public static void main(String[] args) {
 
-        // Creating a zoo, it comes with some default dataright upon creation.
+        // Creating a zoo, it comes with some default data right upon creation.
         Zoo zoo = Zoo.getInstance();
 
         // Just a little demo on how to access / modify the zoo...
