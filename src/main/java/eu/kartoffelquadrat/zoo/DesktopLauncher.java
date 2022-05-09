@@ -21,7 +21,7 @@ public class DesktopLauncher {
 
         // Modify the zoo by adding a new animal:
         System.out.println("Meet our newest member:");
-        zoo.addAnimal("Baloo", new Animal("Black Bear", 8, "Honey"));
+        zoo.addAnimal("Baloo", new Animal("Black Bear", 8, "honey"));
         System.out.println("\tBaloo" + zoo.getAnimalDetails("Baloo"));
     }
 }
