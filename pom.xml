@@ -59,6 +59,21 @@
                 </configuration>
             </plugin>
 
+            <!-- add sources to JAR -->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-source-plugin</artifactId>
+                <version>3.0.1</version>
+                <executions>
+                    <execution>
+                        <id>attach-sources</id>
+                        <goals>
+                            <goal>jar</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
+
             <!-- specify main class for exec goal -->
             <plugin>
                 <groupId>org.codehaus.mojo</groupId>
@@ -90,26 +105,48 @@
                 </configuration>
             </plugin>
 
-            <!-- add sources -->
+            <!-- Enforce all Junit tests pass -->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-source-plugin</artifactId>
-                <version>3.0.1</version>
+                <artifactId>maven-surefire-plugin</artifactId>
+                <version>2.22.2</version>
+            </plugin>
+
+            <!-- Enforce pass of checkstyle (also refuses warnings) -->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-checkstyle-plugin</artifactId>
+                <version>3.2.0</version>
+                <configuration>
+                    <configLocation>google_checks.xml</configLocation>
+                    <consoleOutput>true</consoleOutput>
+                    <violationSeverity>warning</violationSeverity>
+                    <failOnViolation>true</failOnViolation>
+                    <failsOnError>true</failsOnError>
+                    <linkXRef>false</linkXRef>
+                </configuration>
                 <executions>
                     <execution>
-                        <id>attach-sources</id>
+                        <id>validate</id>
+                        <phase>validate</phase>
                         <goals>
-                            <goal>jar</goal>
+                            <goal>check</goal>
                         </goals>
                     </execution>
                 </executions>
             </plugin>
 
-            <!-- add docs -->
+            <!-- Add documentation to produced JAR and to docs directory for github pages-->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-javadoc-plugin</artifactId>
                 <version>3.2.0</version>
+                <configuration>
+                    <javadocExecutable>${java.home}/bin/javadoc</javadocExecutable>
+                    <reportOutputDirectory>${project.reporting.outputDirectory}/docs
+                    </reportOutputDirectory>
+                    <destDir>docs</destDir>
+                </configuration>
                 <executions>
                     <execution>
                         <id>attach-javadocs</id>
