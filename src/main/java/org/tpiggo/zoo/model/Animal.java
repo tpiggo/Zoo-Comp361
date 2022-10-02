@@ -1,4 +1,4 @@
-package org.tpiggo.zoo;
+package org.tpiggo.zoo.model;
 
 /**
  * Animal bean stores read only attributes of an immutable animal object and provides public getter
@@ -16,9 +16,9 @@ public class Animal {
   /**
    * Constructor. Requires final values for animals species, age and food.
    *
-   * @param species       as the animals species.
-   * @param age           as the animals age in years.
-   * @param favouriteFood as the animals preferred meal.
+   * @param species       as the animal's species.
+   * @param age           as the animal's age in years.
+   * @param favouriteFood as the animal's preferred meal.
    */
   public Animal(String species, int age, String favouriteFood) {
 

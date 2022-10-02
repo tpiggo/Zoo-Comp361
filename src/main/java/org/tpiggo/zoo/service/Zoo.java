@@ -1,19 +1,22 @@
-package org.tpiggo.zoo;
+package org.tpiggo.zoo.service;
 
-import java.util.Collection;
-import java.util.LinkedHashMap;
-import java.util.Map;
+import org.springframework.stereotype.Service;
+import org.tpiggo.zoo.model.Animal;
+import org.tpiggo.zoo.model.OpeningHours;
+
+import java.util.*;
+import java.util.stream.Collectors;
 
 /**
  * Principal class of the Zoo, offering all relevant public functionality. Access to public methods
  * of this implementation is demonstrated in the DesktopLauncher class. This class is a singleton.
  *
- * @author Maximilian Schiedermeier
+ * @author Timothy Piggott
  */
+
+@Service
 public class Zoo {
 
-  // Singleton reference
-  private static Zoo singleton = null;
 
   // private fields for indexed animals and opening hours.
   private final Map<String, Animal> animals;
@@ -22,24 +25,12 @@ public class Zoo {
   /**
    * Private constructor, populates the zoo.
    */
-  private Zoo() {
+  public Zoo() {
     openingHours = new OpeningHours();
     animals = new LinkedHashMap<>();
     addAnimal("Charly", new Animal("Chimpanzee", 10, "Bananas"));
     addAnimal("Nemo", new Animal("Clownfish", 4, "Plankton"));
     addAnimal("Dumbo", new Animal("Elephant", 13, "Peanuts"));
-  }
-
-  /**
-   * Singleton patter access method.
-   *
-   * @return the one and only Zoo instance.
-   */
-  public static Zoo getInstance() {
-    if (singleton == null) {
-      singleton = new Zoo();
-    }
-    return singleton;
   }
 
   /**
@@ -80,5 +71,7 @@ public class Zoo {
     return openingHours;
   }
 
-
+  public List<Animal> getAnimals() {
+    return new ArrayList<>(animals.values());
+  }
 }
