@@ -1,4 +1,3 @@
-eu/kartoffelquadrat/zoo/Animal.class
-eu/kartoffelquadrat/zoo/OpeningHours.class
-eu/kartoffelquadrat/zoo/Zoo.class
-eu/kartoffelquadrat/zoo/DesktopLauncher.class
+org/tpiggo/zoo/OpeningHours.class
+org/tpiggo/zoo/Zoo.class
+org/tpiggo/zoo/Animal.class

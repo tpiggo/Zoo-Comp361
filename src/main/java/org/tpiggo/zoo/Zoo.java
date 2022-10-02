@@ -1,4 +1,4 @@
-package eu.kartoffelquadrat.zoo;
+package org.tpiggo.zoo;
 
 import java.util.Collection;
 import java.util.LinkedHashMap;
@@ -13,7 +13,7 @@ import java.util.Map;
 public class Zoo {
 
   // Singleton reference
-  private static Zoo SINGLETON_REFERENCE = null;
+  private static Zoo singleton = null;
 
   // private fields for indexed animals and opening hours.
   private final Map<String, Animal> animals;
@@ -36,10 +36,10 @@ public class Zoo {
    * @return the one and only Zoo instance.
    */
   public static Zoo getInstance() {
-    if (SINGLETON_REFERENCE == null) {
-      SINGLETON_REFERENCE = new Zoo();
+    if (singleton == null) {
+      singleton = new Zoo();
     }
-    return SINGLETON_REFERENCE;
+    return singleton;
   }
 
   /**

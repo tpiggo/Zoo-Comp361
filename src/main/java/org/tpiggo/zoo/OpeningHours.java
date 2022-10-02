@@ -1,4 +1,4 @@
-package eu.kartoffelquadrat.zoo;
+package org.tpiggo.zoo;
 
 /**
  * Open Hours is a bean storing the Zoo's opening hours on Weekdays and Weekends..

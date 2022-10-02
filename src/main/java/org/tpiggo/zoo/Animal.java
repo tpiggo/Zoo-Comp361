@@ -1,4 +1,4 @@
-package eu.kartoffelquadrat.zoo;
+package org.tpiggo.zoo;
 
 /**
  * Animal bean stores read only attributes of an immutable animal object and provides public getter

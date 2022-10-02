@@ -5,7 +5,7 @@
     <artifactId>zoo</artifactId>
     <packaging>jar</packaging>
     <version>1.0</version>
-    <name>zoointernals</name>
+    <name>ZooRestify</name>
     <url>http://maven.apache.org</url>
 
     <properties>
@@ -18,10 +18,8 @@
     <!-- main developer -->
     <developers>
         <developer>
-            <name>Maximilian Schiedermeier</name>
-            <email>maximilian.schiedermeier@mcgill.ca</email>
-            <organization>kartoffelquadrat.eu</organization>
-            <organizationUrl>https://github.com/kartoffelquadrat</organizationUrl>
+            <name>Some Name</name>
+            <organization>mcgill.ca</organization>
         </developer>
     </developers>
 
@@ -36,6 +34,11 @@
 
     <!-- no dependencies to java libraries so far-->
     <dependencies>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+            <version>2.7.3</version>
+        </dependency>
     </dependencies>
 
     <build>
@@ -43,6 +46,21 @@
         <finalName>Zoo</finalName>
 
         <plugins>
+            <!-- specify main class for JAR manifest-->
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+                <configuration>
+                    <mainClass>org.tpiggo.zoo.RestLauncher</mainClass>
+                </configuration>
+                <executions>
+                    <execution>
+                        <goals>
+                            <goal>repackage</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
             <!-- set compiler version -->
             <plugin>
                 <artifactId>maven-compiler-plugin</artifactId>
@@ -72,37 +90,6 @@
                         </goals>
                     </execution>
                 </executions>
-            </plugin>
-
-            <!-- specify main class for exec goal -->
-            <plugin>
-                <groupId>org.codehaus.mojo</groupId>
-                <artifactId>exec-maven-plugin</artifactId>
-                <version>1.6.0</version>
-                <executions>
-                    <execution>
-                        <goals>
-                            <goal>java</goal>
-                        </goals>
-                    </execution>
-                </executions>
-                <configuration>
-                    <mainClass>eu.kartoffelquadrat.zoo.DesktopLauncher</mainClass>
-                </configuration>
-            </plugin>
-
-            <!-- specify main class for JAR manifest-->
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-jar-plugin</artifactId>
-                <version>3.2.0</version>
-                <configuration>
-                    <archive>
-                        <manifest>
-                            <mainClass>eu.kartoffelquadrat.zoo.DesktopLauncher</mainClass>
-                        </manifest>
-                    </archive>
-                </configuration>
             </plugin>
 
             <!-- Enforce all Junit tests pass -->
