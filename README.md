@@ -23,3 +23,6 @@ To compile / run the Zoo, execute these commands:
 ## Documentation
 
  * [GitHub JavaDoc Pages](https://kartoffelquadrat.github.io/Zoo/eu/kartoffelquadrat/zoo/package-summary.html)
+
+
+Something
